@@ -1,0 +1,60 @@
+/* Estilo general del contenedor de Landing */
+.LandingStyles {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh; /* Asegura que el contenedor ocupe toda la altura de la pantalla */
+    background-image: url('../../assets/backgroundCan.jpg'); /* Cambia esta ruta a la imagen de fondo que desees */
+    background-size: cover;
+    background-position: center;
+    color: #333; /* Color de texto principal */
+    text-align: center;
+  }
+  
+  /* Estilo para el título principal */
+  h1 {
+    font-size: 3rem;
+    color: rgba(9, 107, 132, 0.9); /* Color principal */
+    margin-bottom: 20px;
+  }
+  
+  /* Estilo para los subtítulos */
+  h2 {
+    font-size: 2rem;
+    color: rgba(9, 107, 132, 0.8); /* Color principal */
+    margin-bottom: 15px;
+  }
+  
+  /* Estilo para los enlaces */
+  a {
+    text-decoration: none;
+  }
+  
+  /* Estilo para los botones */
+  button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin: 10px;
+  }
+  
+  /* Estilo para el botón de Registrarse */
+  button:nth-of-type(1) {
+    background-color: rgb(8, 243, 8); /* Color verde */
+    color: white;
+  }
+  
+  /* Estilo para el botón de Ingresar */
+  button:nth-of-type(2) {
+    background-color: rgb(220, 10, 10); /* Color rojo */
+    color: white;
+  }
+  
+  /* Estilo para el botón al pasar el ratón */
+  button:hover {
+    opacity: 0.9;
+  }
